@@ -1,0 +1,132 @@
+body{margin: 0%;
+    padding: 0%;
+    background-color: rgb(236, 240, 241);
+    font-family: serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: aqua;
+}
+/* header start */
+.win{
+    max-width: 1000px;
+    background-color: aliceblue;
+    margin: 0% auto;
+    padding: 20px;
+}
+.pp-img{
+    width: 100px;
+    height: 120px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.sec1{
+    color: aqua;
+    float: left;
+    padding: 15px;
+}
+.sec2 ul{
+    float: right;
+    padding: 30px;
+    list-style-type: none;
+}
+.sec2 ul li{
+    
+}
+.sec2 ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+    
+.sec2 ul li a:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+   
+}
+.div-clr{
+    clear: both;
+}
+hr{
+    border: 3px solid gray;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* header end */
+
+/* main start */
+.left{color: aqua;
+    float: left;
+    width: 30%;
+
+}
+.right{
+float: right;
+width: 70%;
+
+}
+.right h1,h5{
+    color:aqua ;
+}
+
+.common-hr{
+    border: solid gray 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 0% auto;
+
+
+}
+.edu-left{
+    float: left;
+    width: 45%;
+   
+    
+}
+.edu-right{
+    float: right;
+    width: 45%;
+}
+.ref-left{
+    float: left;
+    width: 45%;
+   
+    
+}
+.edu-right p a:hover{
+    color: red;
+}
+.edu-left p a:hover{
+    color: red;
+}
+
+
+
+.ref-right{
+    float: right;
+    width: 45%;
+}
+/* main end */
+/* footer start */
+.footer1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer1 p{
+    color: deeppink;
+}
+.footer1 a{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.footer1 a:hover{
+    text-decoration: underline;
+    color: red;
+
+}
+/* footer end */
